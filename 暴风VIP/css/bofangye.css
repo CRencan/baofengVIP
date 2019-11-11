@@ -1,0 +1,808 @@
+#wuyong {
+    position: absolute;
+    left: 1244px;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: #242428;
+    z-index: 1000000000000000000000;
+}
+
+.title {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    background-color: #242428;
+    overflow: hidden;
+    z-index: 100000;
+}
+
+.title .box {
+    position: relative;
+}
+
+.title .box .logo {
+    display: inline-block;
+    width: 119px;
+    height: 29px;
+    margin-bottom: 10px;
+    background-image: url(../images/playtop.png);
+    background-repeat: no-repeat;
+    background-position: -181px -124px;
+    overflow: hidden;
+}
+
+.title .box .sye,
+.title .box .dhang {
+    display: inline-block;
+    width: 64px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #989898;
+    height: 55px;
+    line-height: 55px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.title .box .more {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 20px;
+    height: 15px;
+    line-height: 30px;
+    background-image: url(../images/play.png);
+    background-position: -1180px -562px
+}
+
+.title .box input {
+    position: relative;
+    width: 430px;
+    height: 30px;
+    left: 75px;
+    top: -23px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 0 20px;
+    color: #989898;
+    background: #373A42;
+}
+
+.title .box .btn {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    width: 88px;
+    height: 30px;
+    line-height: 22px;
+    background-image: url(../images/play.png);
+    background-position: 215px -49px;
+}
+
+.title .box ul {
+    float: right;
+}
+
+.title .box ul li {
+    float: left;
+    /* width: 28px;
+    height: 38px;
+    margin: 0 20px;
+    margin-top: 15px;
+    background-image: url(../images/playtop.png);
+    background-position: -115px 0px; */
+}
+
+.title .box ul li a {
+    display: inline-block;
+    width: 54px;
+    height: 35px;
+    margin: 0 5px;
+    margin-top: 10px;
+    background-image: url(../images/playtop.png);
+    background-position: -84px 0px;
+    font-size: 12px;
+    text-align: right;
+    line-height: 66px;
+    color: #989898;
+}
+
+.title .box ul li .scang {
+    background-position: -140px 0px;
+}
+
+.title .box ul li .khd {
+    background-position: -200px 0px;
+}
+
+.title .box ul li .dlu {
+    background-position: -262px 0px;
+}
+
+
+/* 隐藏的 */
+
+.type {
+    position: absolute;
+    top: 55px;
+    width: 100%;
+    background-color: #000;
+    height: 100px;
+    display: none;
+    z-index: 10000000;
+}
+
+.type div div {
+    float: left;
+}
+
+.type div .box1 {
+    width: 40%;
+    height: 50px;
+    margin: 25px 0;
+    border-right: 1px solid #fff;
+}
+
+.type div .box1 span a {
+    padding: 0 24px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.type div .box2 {
+    width: 15%;
+    height: 50px;
+    margin: 25px 0;
+    border-right: 1px solid #fff;
+}
+
+.type div .box2 span a {
+    padding: 17px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.type div .box2 span:nth-child(1) a {
+    color: red
+}
+
+.type div .box2 span:nth-child(3) {
+    margin-left: 8px
+}
+
+.type div .box2 span:nth-child(4) {
+    margin-left: 5px
+}
+
+.type div .box3 {
+    width: 5%;
+    height: 50px;
+    margin: 25px 0;
+    text-align: center;
+    border-right: 1px solid #fff;
+}
+
+.type div .box3 span {
+    display: block;
+    margin: 0 auto;
+    width: 37px;
+    height: 30px;
+    background-image: url(../images/play.png);
+    background-position: 165px -158px;
+}
+
+.type div .box3 a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.type div .box4 {
+    width: 39%;
+    height: 50px;
+    margin: 25px 0;
+}
+
+.type div .box4 a:nth-child(1),
+.type div .box4 a:nth-child(2) {
+    display: inline-block;
+    width: 195px;
+    height: 55px;
+    background-image: url(../images/download01.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.type div .box4 a:nth-child(2) {
+    background-image: url(../images/download02.png);
+}
+
+
+/* .type div .box4 span:nth-child(2) {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-image: url(../images/download02.png);
+    background-position: 0px 0px;
+    margin: 25px 5px;
+} */
+
+
+/*  播放*/
+
+.wrap {
+    width: 100%;
+    height: 730px;
+    background-color: #383a42;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.wrap .mName {
+    margin-top: 60px;
+    color: #989898;
+}
+
+.wrap .mName p:nth-child(1) a {
+    color: #fff;
+}
+
+.wrap .mName p:nth-child(2) {
+    font-size: 14px
+}
+
+.wrap .mName p:nth-child(2) a {
+    color: #989898;
+    font-size: 14px;
+}
+
+.wrap .play>div {
+    float: left;
+    margin-top: 4px;
+}
+
+.wrap .play>div:nth-child(1) {
+    width: 850px;
+    height: 550px;
+    background-color: #fff;
+}
+
+.wrap .play>div:nth-child(2) {
+    width: 330px;
+    height: 550px;
+    background-color: #000;
+}
+
+.wrap .play>div:nth-child(2) span {
+    display: inline-block;
+    width: 160px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    border-bottom: #3a3a3e 1px solid;
+}
+
+.wrap .play>div:nth-child(2) .zhong {
+    color: #1a9eff;
+    border-bottom: #1a9eff 1px solid;
+}
+
+.wrap .play>div:nth-child(2) span:hover {
+    color: #1a9eff;
+    border-bottom: #1a9eff 1px solid;
+}
+
+.wrap .player>div:nth-child(1) {
+    float: left;
+    width: 850px;
+    height: 47px;
+    background-color: #000;
+}
+
+.wrap .player div:nth-child(1) ul li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #989898;
+    padding: 0 10px;
+}
+
+.wrap .player div:nth-child(1) ul li:nth-child(1) {
+    margin-left: 20px;
+}
+
+.wrap .player div:nth-child(1) ul li:nth-child(n+4) {
+    float: right;
+    padding: 0 20px;
+}
+
+.sp11,
+.sp22 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.sp1 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px 0px;
+}
+
+.sp1:hover {
+    background-position: 0px -272px;
+}
+
+.sp2 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px -35px;
+}
+
+.sp2:hover {
+    background-position: 0px 213px;
+}
+
+.sp3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px -70px;
+}
+
+.sp3:hover {
+    background-position: 0px 178px;
+}
+
+.sp4 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px -160px;
+}
+
+.sp4:hover {
+    background-position: 0px 88px;
+}
+
+.sp5 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px -232px;
+}
+
+.sp5:hover {
+    background-position: 0px 16px;
+}
+
+.sp6 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px -200px;
+}
+
+.sp6:hover {
+    background-position: 0px 48px;
+}
+
+.download {
+    cursor: pointer;
+    float: left;
+    background: #000;
+    width: 330px;
+    height: 47px;
+    background-image: url(../images/play_download.png);
+    background-position: 0px 1px;
+}
+
+
+/* 电影 */
+
+.mainbox .left {
+    width: 66%;
+    float: left;
+}
+
+.mainbox .right {
+    width: 33%;
+    float: right;
+}
+
+
+/* 猜你喜欢 */
+
+.mainbox .left .like div div {
+    position: relative;
+    width: 180px;
+    height: 290px;
+    margin: 5px 14px 15px 0px;
+    float: left;
+}
+
+.mainbox .left .like div div span:nth-child(1) {
+    float: left;
+}
+
+.mainbox .left .like div div span:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    bottom: 25px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #191919;
+    overflow: hidden;
+}
+
+.mainbox .left .like div div span:nth-child(3) {
+    line-height: 15px;
+    font-size: 12px;
+    color: #989898;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+}
+
+.mainbox .left .like div div span:nth-child(4) {
+    float: right;
+    font-size: 14px;
+    color: #fc4413;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+
+/*  热门推荐*/
+
+.mainbox .left .hott .more {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.mainbox .left .hott .lleft {
+    width: 75%;
+    float: left;
+    overflow: hidden;
+}
+
+.mainbox .left .hott .rright {
+    width: 25%;
+    float: right;
+    overflow: hidden;
+}
+
+.mainbox .left .hott .mht {
+    width: 75%;
+    float: left;
+}
+
+.mainbox .left .hott .mht img {
+    width: 180px;
+    height: 135px;
+    float: left;
+    border-radius: 3px;
+}
+
+.mainbox .left .hott .mht div {
+    position: relative;
+    width: 180px;
+    height: 135px;
+    float: left;
+    margin: 0 14px 14px 0;
+}
+
+.mainbox .left .hott .mht .mhtname a {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/* 排行榜 */
+
+.bangbang {
+    width: 25%;
+    float: left;
+}
+
+.xuhao {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(128, 118, 118);
+    color: #fff;
+    margin: 9px 3px;
+}
+
+.pianming {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.pingfen {
+    float: right;
+    color: #f00
+}
+
+.pic {
+    /* display: none */
+}
+
+.pic img {
+    display: block;
+    width: 100%;
+}
+
+.hengtiao {
+    position: relative;
+    left: 0px;
+    top: -25px;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 14px
+}
+
+.hengtiao .xuehao2 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #00A1FF;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 13px;
+    margin: 0 5px 0 15px;
+}
+
+.mainbox .spa1 {
+    display: inline-block;
+    width: 5px;
+    height: 44px;
+    background-image: url(../images/indexicons.png);
+    position: relative;
+    background-position: -395px -202px;
+    vertical-align: middle;
+}
+
+.mainbox .spa2 {
+    width: 100px;
+    font-size: 26px;
+    font-weight: 400;
+    color: #191919;
+    padding: 0 10px;
+}
+
+.mainbox .spa3 {
+    font-size: 14px;
+}
+
+.mainbox .spa4 {
+    font-size: 14px;
+    float: right;
+    color: #7f7f7f;
+    line-height: 35px;
+}
+
+.mainbox .right textarea {
+    width: 380px;
+    height: 102px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border: #c8c8c8 1px solid;
+}
+
+.mainbox .right a {
+    color: #00A1FF;
+}
+
+.mainbox .right .yzm input {
+    width: 90px;
+    height: 30px;
+    border-radius: 3px;
+    border: #c8c8c8 1px solid;
+    text-align: center
+}
+
+.mainbox .right .yzm .yz {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    margin: 0 10px;
+    text-align: right
+}
+
+.mainbox .right .yzm a {
+    text-decoration: underline;
+    font-size: 12px
+}
+
+.mainbox .right .yzm #fbiao {
+    float: right;
+    background-color: #00A1FF;
+    color: #fff;
+    border: none;
+}
+
+.mainbox .right .plun {
+    float: right;
+    font-size: 12px;
+}
+
+.mainbox .right .plun .bding {
+    text-decoration: underline;
+}
+
+.mainbox .right .pxu {
+    border-bottom: 1px solid #e8e8e8;
+    margin-top: 40px;
+}
+
+.mainbox .right .pxu span {
+    padding: 8px 15px;
+    position: relative;
+    bottom: 4px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.mainbox .right .pxu .pnow {
+    color: #00A1FF;
+    border-bottom: 1px solid #00A1FF;
+}
+
+.mainbox .right .ping {
+    height: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: #b6b6b6 1px solid;
+    color: #404040;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+#jubao {
+    display: none;
+}
+
+.mainbox .right .ping .toux {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/tx.jpg);
+    background-size: 100%;
+    background-position: 30px -2px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.mainbox .right .ping .mingz {
+    display: block;
+}
+
+.mainbox .right .ping .write {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5e5e5e;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.mainbox .right .ping .z {
+    float: right;
+}
+
+.mainbox .right .ping .z .s1 {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    background-image: url(../images/playtop.png);
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+#qian {
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+    line-height: 18px;
+    border: #d8d8d8 1px solid;
+    text-align: center;
+}
+
+#zonggong {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#queding {
+    display: inline-block;
+    margin-left: 20px;
+    width: 58px;
+    height: 20px;
+    line-height: 20px;
+    border: #d1d2d2 1px solid;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #747474;
+    background-color: #fff;
+}
+
+#shang,
+#xia {
+    float: right;
+    margin: 0px 10px;
+    display: inline-block;
+    width: 58px;
+    height: 18px;
+    line-height: 18px;
+    border: #d1d2d2 1px solid;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #747474;
+    background-color: #fff;
+}
+
+
+/* 页脚 */
+
+.foot .links {
+    padding-bottom: 12px;
+    border-top: 1px solid #1a9eff;
+    overflow: hidden;
+}
+
+.foot p {
+    text-align: center;
+    line-height: 30px;
+    color: #989898;
+    font-size: 12px
+}
+
+.foot p a {
+    color: #989898;
+    padding: 0 6px;
+}

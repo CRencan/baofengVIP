@@ -1,0 +1,486 @@
+/* 顶部logo------------------------------------------------------ */
+
+.top {
+    width: 100%;
+    height: 89px;
+    background-color: #F9F9F9;
+}
+
+.top .logo {
+    background-image: url(../images/new-sso.png);
+    width: 169px;
+    height: 39px;
+    position: absolute;
+    left: 175px;
+    top: 24px;
+    background-position: 0 -305px;
+}
+
+
+/* 主题背景------------------------------------------------------------------ */
+
+.main {
+    background-color: #00A6EA;
+    height: 542px;
+    background-image: url(../images/mbanner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.main .banner {
+    background-image: url(../images/duang.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 67px;
+    height: 542px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* 登录 ----------------------------------------------------------------*/
+
+.wrap1,
+.wrap2 {
+    float: right;
+    padding: 20px 24px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 53px;
+    margin-right: 40px;
+    width: 284px;
+    height: 406px;
+    position: relative;
+}
+
+.wrap2 {
+    display: none
+}
+
+.wrap1 .logo {
+    display: block;
+    margin-bottom: 38px;
+    width: 85px;
+    height: 24px;
+    background-image: url(../images/new-sso.png);
+    background-position: -100px 0px;
+}
+
+#phonee {
+    position: absolute;
+    top: 60px;
+    color: red;
+    font-size: 12px;
+}
+
+
+/* 登录，用户名 ------------------------------------------------------------*/
+
+.wrap1 .user span {
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    left: 26px;
+    top: 85px;
+    background-image: url(../images/new-sso.png);
+    background-position: -90px -35px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.wrap1 .user input {
+    width: 222px;
+    padding: 6px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+
+/* 登录，密码 -------------------------------------------------------------------*/
+
+.wrap1 .pass span {
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    left: 26px;
+    top: 125px;
+    background-image: url(../images/new-sso.png);
+    background-position: -30px -35px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+
+/* 其他不重要小字-------------------------- */
+
+.wrap1 .pass input {
+    width: 222px;
+    padding: 6px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.wrap1 .type {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.type span {
+    float: right;
+    color: #00A6EA;
+}
+
+.wrap1 .btn input {
+    width: 284px;
+    height: 38px;
+    background-color: #1a9eff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrap1 .btn input:hover {
+    cursor: pointer;
+    background-color: #6db6eb;
+}
+
+.wrap1 {
+    font-size: 12px;
+}
+
+.wrap1 .problem .wenhao {
+    /* display: inline-block; */
+    width: 20px;
+    height: 17px;
+    float: left;
+    background-image: url(../images/new-sso.png);
+    background-position: 0px 17px;
+}
+
+.wrap1 .problem a .wt,
+.wenhao:hover {
+    color: #999;
+}
+
+.wrap1 .problem .phone {
+    color: #00A6EA;
+    float: right;
+}
+
+.wrap1 .other {
+    text-align: center;
+    color: #999;
+    margin-top: 117px;
+}
+
+.wrap1 .other div {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.wrap1 .other div .qq,
+.wx,
+.wb {
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-image: url(../images/new-sso.png);
+    background-position: 0px 50px;
+    margin: 3px 10px;
+}
+
+.wrap1 .other div .wx {
+    background-position: -60px 50px;
+}
+
+.wrap1 .other div .wb {
+    background-position: -30px 50px;
+}
+
+
+/* 注册 -------------------------------------------------------------*/
+
+.wrap2 .logo {
+    display: block;
+    margin-bottom: 38px;
+    width: 85px;
+    height: 24px;
+    background-image: url(../images/new-sso.png);
+    background-position: 0 0;
+}
+
+
+/* 注册，用户名------------------------------------------------------------ */
+
+#phone {
+    position: absolute;
+    top: 60px;
+    color: red;
+    font-size: 12px;
+}
+
+.wrap2 .user span {
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    left: 26px;
+    top: 85px;
+    background-image: url(../images/new-sso.png);
+    background-position: 0px -35px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.wrap2 .user input {
+    width: 222px;
+    padding: 6px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+
+/* 注册，密码 ----------------------------------------------------*/
+
+.wrap2 .pass span {
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    left: 26px;
+    top: 125px;
+    background-image: url(../images/new-sso.png);
+    background-position: -30px -35px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.wrap2 .pass input {
+    width: 222px;
+    padding: 6px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.wrap2 .pass .safe {
+    display: block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 282px;
+    top: 123px;
+    background-image: url(../images/new-sso.png);
+    background-position: -40px -70px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+
+/* 注册，验证码-------------------------------------------------------- */
+
+.wrap2 .yzm input,
+.wrap2 .dxin input {
+    float: left;
+    width: 105px;
+    padding: 6px 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.wrap2 .yzm .yz {
+    float: left;
+    width: 70px;
+    height: 27px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 27px;
+    font-size: 20px
+}
+
+.wrap2 .yzm .sp1,
+.wrap2 .dxin .sp1 {
+    display: block;
+    width: 25px;
+    height: 22px;
+    position: absolute;
+    left: 26px;
+    top: 165px;
+    background-image: url(../images/new-sso.png);
+    background-position: -60px -35px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.wrap2 .yzm .sp2 {
+    display: block;
+    border: 1px solid #ddd;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 280px;
+    top: 160px;
+    background-image: url(../images/new-sso.png);
+    background-position: -121px -32px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+/* 注册，短信-------------------------------------------------------------- */
+.wrap2 .dxin .sp1 {
+    left: 26px;
+    top: 204px;
+}
+
+.wrap2 .dxin .sp2 {
+    float: left;
+    width: 105px;
+    height: 27px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: #757575;
+    background-color: #fff;
+    padding: 0
+}
+
+
+/* 复选框勾选待写 */
+
+
+/* .wrap.wrap .type .sp {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-image: url(../images/new-sso.png);
+    left: 
+}
+ */
+
+.wrap2 .dxin,
+.wrap2 .yzm {
+    overflow: hidden;
+}
+
+.wrap2 p {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+p .sp1 {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 235px;
+    background-image: url(../images/new-sso.png);
+    background-position: -15px -62px;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+p .sp2 {
+    margin-left: 20px;
+    color: #999;
+    cursor: pointer;
+}
+
+p .a1 {
+    color: #00A6EA;
+}
+
+p .a2 {
+    float: right;
+    color: #00A6EA;
+}
+
+.wrap2 .btn input {
+    width: 284px;
+    height: 38px;
+    background-color: #1a9eff;
+    border: none;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wrap2 .btn input:hover {
+    cursor: pointer;
+    background-color: #6db6eb;
+}
+
+.wrap2 {
+    font-size: 12px;
+}
+
+.wrap2 .problem .wenhao {
+    /* display: inline-block; */
+    width: 20px;
+    height: 17px;
+    float: left;
+    background-image: url(../images/new-sso.png);
+    background-position: 0px 17px;
+}
+
+.wrap2 .problem a .wt,
+.wenhao:hover {
+    color: #999;
+}
+
+.wrap2 .problem .phone {
+    color: #00A6EA;
+    float: right;
+}
+
+.wrap2 .other {
+    text-align: center;
+    color: #999;
+    margin-top: 40px;
+}
+
+.wrap2 .other div {
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.wrap2 .other div .qq,
+.wx,
+.wb {
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-image: url(../images/new-sso.png);
+    background-position: 0px 50px;
+    margin: 3px 10px;
+}
+
+.wrap2 .other div .wx {
+    background-position: -60px 50px;
+}
+
+.wrap2 .other div .wb {
+    background-position: -30px 50px;
+}
+
+
+/* 页脚 */
+
+.foot {
+    font-size: 12px;
+    color: #999;
+    height: 100px;
+    text-align: center;
+    margin-top: 15px
+}
+
+.foot p {
+    line-height: 23px;
+    padding-top: 17px;
+}

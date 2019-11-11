@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset..css">
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/others.css">
+</head>
+
+<body>
+    <!-- 页眉----------------------------------------------------------------------------------------------------------------- -->
+    <div class="top">
+        <div class="logo"></div>
+    </div>
+    <div class="main">
+        <div class="banner ">
+            <!-- 登录 ------------------------------------------------------------------------------------------------------------------------------>
+            <div class="wrap1">
+                <form action="./index.html" id="forma">
+                    <div class="logo"></div>
+                    <span id="phonee"></span>
+                    <div class="user"><span></span><input type="text" name="userName" placeholder="输入手机/邮箱/用户名" id="myname"></div>
+                    <div class="pass"><span></span><input type="password" name="pass" placeholder="输入密码" id="mypass"></div>
+                    <div class="type"><span class="sp"></span><input type="checkbox" name="check" value="">记住我<a href=""><span>   找回密码</span> </a> <a href="javascript:;"><span id="ljzc"> 立即注册&nbsp;|&nbsp;</span></a></div>
+                    <div class="btn">
+                        <input type="button" value="登&nbsp;&nbsp;&nbsp;&nbsp;录" name="buttn" id="logina">
+                    </div>
+
+                    <div class="problem"><a href=""><span class="wenhao"></span><span ></span> 遇到问题</span></a><a href=""><span class="phone">手机验证登录></span></a></div>
+                    <div class="other">——————其他方式登录——————
+                        <div><a href=""><span class="qq"></span></a><a href=""><span class="wb"></span></a><a href=""><span class="wx"></span></a></div>
+                    </div>
+                </form>
+            </div>
+            <!-- 注册 --------------------------------------------------------------------------------------------------------------------->
+            <div class="wrap2">
+                <form action="" id="form">
+                    <div class="logo"></div>
+                    <span id="phone"></span>
+                    <div class="user"><span></span><input type="text" name="userName" placeholder="输入手机号" id="tel" oninput="w2fun1()"></div>
+                    <div class="pass"><span></span><input type="password" name="pass" placeholder="输入密码" oninput="w2fun2()" id="passa"><span class="safe"></span></div>
+                    <div class="yzm"><span class="sp1"></span><input type="text" name="yzm" id="aa" placeholder="输入右侧验证码"><span class="yz"></span><span class="sp2"></span></div>
+                    <div class="dxin"><span class="sp1"></span><input type="text" name="dxin" id="ddxx" placeholder="输入短信验证码"><input type="button" class="sp2" value="免费获取短信">
+                    </div>
+                    <p><span class="sp1"></span><span class="sp2">我同意</span><a href="" class="a1">《暴风影音注册协议》</a><a href="javascript:;" class="a2" id="ljdl">立即登录></a>
+                    </p>
+                    <div class="btn">
+                        <input type="button" value="注&nbsp;&nbsp;&nbsp;&nbsp;册" name="buttn" id="zhucea">
+                    </div>
+
+                    <div class="problem"><a href=""><span class="wenhao"></span><span class="wt" > 遇到问题</span></a></div>
+                    <div class="other">——————其他方式登录——————
+                        <div><a href=""><span class="qq"></span></a><a href=""><span class="wb"></span></a><a href=""><span class="wx"></span></a></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 页脚-------------------------------------------------------------------------------------------------------------------- -->
+    <div class="foot w">
+        <p>客服 QQ：800111739 电话：4000987846（周一至周日9:30-21:30）<br>暴风集团股份有限公司</p>
+    </div>
+
+    <script src="./js/personal.js"></script>
+</body>
+
+</html>
